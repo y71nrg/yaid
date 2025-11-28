@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+/* .ItemTable .biduserID a {
+    color: #326ca6 !important;
+} */
+/* .ItemTable .biduserID a:visited {
+    color: purple !important;
+} */
+/* table.ItemTable td a[href*="seller"] {
+    color: red;
+} */
+/* table.ItemTable td a[href*="seller"]:visited {
+    color: purple !important;
+} */
+/* todo */
+.biduserID a {
+    text-overflow: ellipsis;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap !important;
+    width: 18em;
+}
+a.userid:visited {
+    color: purple !important;
+}

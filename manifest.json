@@ -1,0 +1,11 @@
+{
+"name": "ヤフオクID見えーる",
+"description": "23/10/25のID非表示化改悪対策",
+"version": "1.0.0",
+"content_scripts": [{
+	"js": ["js/jquery-3.2.1.min.js","js/script.js"],
+	"css": ["css/style.css"],
+	"matches": ["https://auctions.yahoo.co.jp/*","https://*.auctions.yahoo.co.jp/*"]
+}],
+"manifest_version": 3
+}

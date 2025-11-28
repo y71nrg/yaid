@@ -123,3 +123,17 @@ if(document.URL.match("hasWinner=1")) {
     },1000);
 }
 // /出品終了分 20251119-
+
+//ウォッチリスト 20251119-
+if(document.URL.match("watchlist")) {
+    setTimeout(function(){
+        $("#itm .yhDYa li a").each(function(i){
+            var userID = $(this).prop("href").split('/seller/')[1];
+            $(this).after('<a class="userid gv-u-fontSize12--s5WnvVgDScOXPWU7Mgqd" href="https://auctions.yahoo.co.jp/jp/show/rating?auc_user_id=' + userID + '" target="_blank">' + userID + '</a>');
+        });
+        $("#itm .kmbOlL a:contains('出品中の商品')").hide();
+        $("#itm .userid").css('width','100px');
+        $("#itm .userid").css('overflow','hidden');
+    },1000);
+}
+// /ウォッチリスト 20251119-

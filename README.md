@@ -5,7 +5,7 @@
 * 出品中 出品終了分 ブラックリスト 入札履歴にユーザのユニークIDを表示し、閲覧済みのIDに色を付ける 
 
 **出品中**
-<img width="1302" height="70" alt="スクリーンショット 2025-11-28 17 04 29" src="https://github.com/user-attachments/assets/44155444-7ab6-4bec-ad47-51ddd7b3ae1a" />
+<img width="1302" height="70" alt="" src="https://github.com/user-attachments/assets/a8acb4eb-6394-46bb-be65-b176401c6ea6" />
 
 **出品終了分**
-<img width="1296" height="133" alt="スクリーンショット 2025-11-28 17 08 18" src="https://github.com/user-attachments/assets/11c5ccd3-b033-4f73-a59c-d7643623807d" />
+<img width="1296" height="133" alt="" src="https://github.com/user-attachments/assets/22dffaf6-e936-4850-a828-354e41c32f42" />
